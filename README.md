@@ -1,6 +1,6 @@
 # Vigogne_auto_installer
 
-This repository aims to simplify the installation of the Vigogne AI, provided that you have the prerequisites listed below.
+This repository aims to simplify the installation of the [Vigogne AI](https://github.com/bofenghuang/vigogne), provided that you have the prerequisites listed below.
 
 ![macOS](https://img.shields.io/badge/-macOS-%23999999?style=flat-square&logo=macos&logoColor=white) 
 ![Linux](https://img.shields.io/badge/-Linux-%23FCC624?style=flat-square&logo=linux&logoColor=white)
@@ -15,7 +15,7 @@ This repository aims to simplify the installation of the Vigogne AI, provided th
       <a href="#introduction">Introduction</a>
     </li>
     <li>
-      <a href="#before-you-begin">Before you begin</a>
+      <a href="#before-you-begin-">Before you begin</a>
       <ul>
         <li><a href="#mac">Mac</a></li>
         <li><a href="#windows">Windows</a></li>
@@ -23,6 +23,7 @@ This repository aims to simplify the installation of the Vigogne AI, provided th
       </ul>
     </li>
     <li><a href="#follow-me-">Follow ME ✅</a></li>
+    <li><a href="#resources">Resources</a></li>
     <li><a href="#support">Support</a></li>
     <li><a href="#about-the-repo-">About the repo ⚙️</a></li>
   </ol>
@@ -103,54 +104,8 @@ Then run the command :
 
 ## Windows
 
-Once you have python, you just need to run this command :  
-
-```bash
-#In 🏴󠁧󠁢󠁥󠁮󠁧󠁿
-python comparator_sha256.py
-
-#In 🇫🇷
-python comparator_sha256_fr.py
-```
-
-And let us guide you by answering the questions asked !
 
 ## Linux
-
-After cloning the repository, you have two options:
-
-### 1. With Python
-
-If you have [Python](https://doc.ubuntu-fr.org/python#installation), you can run the python file with this command : 
-
-```bash
-#In 🏴󠁧󠁢󠁥󠁮󠁧󠁿
-python comparator_sha256.py
-
-#In 🇫🇷
-python comparator_sha256_fr.py
-```
-
-### 2. With Bash
-
-Or, run this command (once in the folder) to make the bash files executable :
-
-```bash
-chmod +x comparator_sha256_linx.sh
-chmod +x comparator_sha256_linx_fr.sh
-```
-
-And just run : 
-
-```
-#In 🏴󠁧󠁢󠁥󠁮󠁧󠁿
-./comparator_sha256_linx.sh
-
-#in 🇫🇷
-./comparator_sha256_linx_fr.sh
-```
-
-And let us guide you by answering the questions asked ! 
 
 
 ## Follow ME ✅
@@ -158,7 +113,6 @@ And let us guide you by answering the questions asked !
 [![youtube](https://img.shields.io/youtube/channel/subscribers/UC5XJLz-Gnv8_T61wMXu-K-A?label=PereConteur&style=social)](https://www.youtube.com/channel/UC5XJLz-Gnv8_T61wMXu-K-A)
 
 [![Rejoignez notre serveur Discord!](https://img.shields.io/badge/Discord-Join%20our%20server-blue?style=for-the-badge&logo=discord)](https://discord.gg/xY63gyVfaR)
-
 
 [![twitch](https://img.shields.io/twitch/status/pereconteur?label=PereConteur&style=social)](https://www.twitch.tv/pereconteur)
 
