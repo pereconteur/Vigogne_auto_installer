@@ -104,6 +104,25 @@ Then run the command :
 
 ## Windows
 
+After cloning the repository, you must place it in the same folder as llama.cpp, as shown in the example below :
+
+```bash
+Desktop
+├── Vigogne_auto_installer
+└── llama.cpp
+```
+
+Once this is done, go to the repository :
+
+```bash
+cd path/to/Vigogne_auto_installer
+```
+
+Then run the command :
+
+```bash
+python3.10 vigogne_auto_install_Windows.py
+```
 
 ## Linux
 
