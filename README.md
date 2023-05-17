@@ -81,40 +81,25 @@ Once everything is ready, we can continue.
 
 ## Mac
 
-After cloning the repository, you have two options:
-
-### 1. With Python
-
-If you have [Python](https://www.python.org/downloads/release/python-31011/), you can run the python file with this command : 
+After cloning the repository, you must place it in the same folder as llama.cpp, as shown in the example below :
 
 ```bash
-#In 🏴󠁧󠁢󠁥󠁮󠁧󠁿
-python comparator_sha256.py
-
-#In 🇫🇷
-python comparator_sha256_fr.py
+Desktop
+├── Vigogne_auto_installer
+└── llama.cpp
 ```
 
-### 2. With Bash
-
-Or, run this command (once in the folder) to make the bash files executable :
+Once this is done, go to the repository :
 
 ```bash
-chmod +x comparator_sha256_mac.sh
-chmod +x comparator_sha256_mac_fr.sh
+cd path/to/Vigogne_auto_installer
 ```
 
-And just run : 
+Then run the command :
 
 ```bash
-#In 🏴󠁧󠁢󠁥󠁮󠁧󠁿
-./comparator_sha256_mac.sh
-
-#In 🇫🇷
-./comparator_sha256_mac_fr.sh
+./vigogne_auto_install_Mac.sh
 ```
-
-And let us guide you by answering the questions asked !
 
 ## Windows
 
