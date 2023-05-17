@@ -36,13 +36,13 @@ I invite you to read more by clicking [here](https://github.com/bofenghuang/vigo
 
 ## Before you begin !
 
-First of all, you must have **Python 3.10 or 3.9 installed**. You can check your version by using the following command:
+First of all, you must have **Python [3.10](https://www.python.org/downloads/release/python-3100/) or [3.9](https://www.python.org/downloads/release/python-390/) installed**. You can check your version by using the following command:
 
 ```bash
 python3 --version
 ```
 
-Secondly, you must have **GIT installed**. You can check your version using the following command:
+Secondly, you must have **[GIT](https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-Installation-de-Git) installed**. You can check your version using the following command:
 
 ```bash
 git --version
