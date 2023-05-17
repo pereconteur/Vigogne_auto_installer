@@ -1,6 +1,6 @@
 # Vigogne_auto_installer
 
-This repository aims to simplify the installation of the Vigogne AI, provided that you have the prerequisites listed below.
+This repository aims to simplify the installation of the [Vigogne AI](https://github.com/bofenghuang/vigogne), provided that you have the prerequisites listed below.
 
 ![macOS](https://img.shields.io/badge/-macOS-%23999999?style=flat-square&logo=macos&logoColor=white) 
 ![Linux](https://img.shields.io/badge/-Linux-%23FCC624?style=flat-square&logo=linux&logoColor=white)
@@ -12,10 +12,10 @@ This repository aims to simplify the installation of the Vigogne AI, provided th
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#how-does-it-work-">Introduction</a>
+      <a href="#introduction">Introduction</a>
     </li>
     <li>
-      <a href="#get-started-">Get started 🚀</a>
+      <a href="#before-you-begin-">Before you begin</a>
       <ul>
         <li><a href="#mac">Mac</a></li>
         <li><a href="#windows">Windows</a></li>
@@ -23,6 +23,7 @@ This repository aims to simplify the installation of the Vigogne AI, provided th
       </ul>
     </li>
     <li><a href="#follow-me-">Follow ME ✅</a></li>
+    <li><a href="#resources">Resources</a></li>
     <li><a href="#support">Support</a></li>
     <li><a href="#about-the-repo-">About the repo ⚙️</a></li>
   </ol>
@@ -30,23 +31,24 @@ This repository aims to simplify the installation of the Vigogne AI, provided th
 
 ### Introduction
 
-Using the script corresponding to your operating system, if the prerequisites are met, you just have to run the script. You will answer two questions concerning the weight you wish to use and the version. I invite you to read more by clicking [here](https://github.com/bofenghuang/vigogne/blob/main/vigogne/model/README.md).
+Using the script corresponding to your operating system, if the prerequisites are met, you just have to run the script. You will answer two questions concerning the weight you wish to use and the version. 
+I invite you to read more by clicking [here](https://github.com/bofenghuang/vigogne/blob/main/vigogne/model/README.md).
 
 ## Before you begin !
 
-First of all, you must have Python 3.10 or 3.9 installed. You can check your version by using the following command:
+First of all, you must have **Python 3.10 or 3.9 installed**. You can check your version by using the following command:
 
 ```bash
 python3 --version
 ```
 
-Secondly, you must have GIT installed. You can check your version using the following command:
+Secondly, you must have **GIT installed**. You can check your version using the following command:
 
 ```bash
 git --version
 ```
 
-Third, you must have WGET installed. You can check your version using the following command:
+Third, you must have **WGET installed**. You can check your version using the following command:
 
 ```bash
 wget --version
@@ -55,10 +57,11 @@ wget --version
 Once you have checked these requirements, make sure you also :
 
 - Have the [llama.cpp](https://github.com/ggerganov/llama.cpp) repository and have compiled it (as we will need ./chat).
-- Place the weights you wish to use for Vigogne in the "models" folder of llama.cpp.
+- Place the LLama weights you wish to use for Vigogne in the "models" folder of llama.cpp.
 
 ```bash
-#Here is an example of what the folder containing llama.cpp should look like (showing only the most important files)
+#Here is an example of what the folder containing llama.cpp should look like 
+# ***(showing only the most important files)***
 
 llama.cpp
 ├── convert.py
@@ -72,7 +75,6 @@ llama.cpp
 │   ├── tokenizer.model
 │   └── tokenizer_checklist.chk
 ├── quantize
-
 ```
 
 Once everything is ready, we can continue.
@@ -80,91 +82,30 @@ Once everything is ready, we can continue.
 
 ## Mac
 
-After cloning the repository, you have two options:
-
-### 1. With Python
-
-If you have [Python](https://www.python.org/downloads/release/python-31011/), you can run the python file with this command : 
+After cloning the repository, you must place it in the same folder as llama.cpp, as shown in the example below :
 
 ```bash
-#In 🏴󠁧󠁢󠁥󠁮󠁧󠁿
-python comparator_sha256.py
-
-#In 🇫🇷
-python comparator_sha256_fr.py
+Desktop
+├── Vigogne_auto_installer
+└── llama.cpp
 ```
 
-### 2. With Bash
-
-Or, run this command (once in the folder) to make the bash files executable :
+Once this is done, go to the repository :
 
 ```bash
-chmod +x comparator_sha256_mac.sh
-chmod +x comparator_sha256_mac_fr.sh
+cd path/to/Vigogne_auto_installer
 ```
 
-And just run : 
+Then run the command :
 
 ```bash
-#In 🏴󠁧󠁢󠁥󠁮󠁧󠁿
-./comparator_sha256_mac.sh
-
-#In 🇫🇷
-./comparator_sha256_mac_fr.sh
+./vigogne_auto_install_Mac.sh
 ```
-
-And let us guide you by answering the questions asked !
 
 ## Windows
 
-Once you have python, you just need to run this command :  
-
-```bash
-#In 🏴󠁧󠁢󠁥󠁮󠁧󠁿
-python comparator_sha256.py
-
-#In 🇫🇷
-python comparator_sha256_fr.py
-```
-
-And let us guide you by answering the questions asked !
 
 ## Linux
-
-After cloning the repository, you have two options:
-
-### 1. With Python
-
-If you have [Python](https://doc.ubuntu-fr.org/python#installation), you can run the python file with this command : 
-
-```bash
-#In 🏴󠁧󠁢󠁥󠁮󠁧󠁿
-python comparator_sha256.py
-
-#In 🇫🇷
-python comparator_sha256_fr.py
-```
-
-### 2. With Bash
-
-Or, run this command (once in the folder) to make the bash files executable :
-
-```bash
-chmod +x comparator_sha256_linx.sh
-chmod +x comparator_sha256_linx_fr.sh
-```
-
-And just run : 
-
-```
-#In 🏴󠁧󠁢󠁥󠁮󠁧󠁿
-./comparator_sha256_linx.sh
-
-#in 🇫🇷
-./comparator_sha256_linx_fr.sh
-```
-
-And let us guide you by answering the questions asked ! 
 
 
 ## Follow ME ✅
@@ -172,7 +113,6 @@ And let us guide you by answering the questions asked !
 [![youtube](https://img.shields.io/youtube/channel/subscribers/UC5XJLz-Gnv8_T61wMXu-K-A?label=PereConteur&style=social)](https://www.youtube.com/channel/UC5XJLz-Gnv8_T61wMXu-K-A)
 
 [![Rejoignez notre serveur Discord!](https://img.shields.io/badge/Discord-Join%20our%20server-blue?style=for-the-badge&logo=discord)](https://discord.gg/xY63gyVfaR)
-
 
 [![twitch](https://img.shields.io/twitch/status/pereconteur?label=PereConteur&style=social)](https://www.twitch.tv/pereconteur)
 
