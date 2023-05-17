@@ -30,23 +30,24 @@ This repository aims to simplify the installation of the Vigogne AI, provided th
 
 ### Introduction
 
-Using the script corresponding to your operating system, if the prerequisites are met, you just have to run the script. You will answer two questions concerning the weight you wish to use and the version. I invite you to read more by clicking [here](https://github.com/bofenghuang/vigogne/blob/main/vigogne/model/README.md).
+Using the script corresponding to your operating system, if the prerequisites are met, you just have to run the script. You will answer two questions concerning the weight you wish to use and the version. 
+I invite you to read more by clicking [here](https://github.com/bofenghuang/vigogne/blob/main/vigogne/model/README.md).
 
 ## Before you begin !
 
-First of all, you must have Python 3.10 or 3.9 installed. You can check your version by using the following command:
+First of all, you must have **Python 3.10 or 3.9 installed**. You can check your version by using the following command:
 
 ```bash
 python3 --version
 ```
 
-Secondly, you must have GIT installed. You can check your version using the following command:
+Secondly, you must have **GIT installed**. You can check your version using the following command:
 
 ```bash
 git --version
 ```
 
-Third, you must have WGET installed. You can check your version using the following command:
+Third, you must have **WGET installed**. You can check your version using the following command:
 
 ```bash
 wget --version
@@ -55,10 +56,11 @@ wget --version
 Once you have checked these requirements, make sure you also :
 
 - Have the [llama.cpp](https://github.com/ggerganov/llama.cpp) repository and have compiled it (as we will need ./chat).
-- Place the weights you wish to use for Vigogne in the "models" folder of llama.cpp.
+- Place the LLama weights you wish to use for Vigogne in the "models" folder of llama.cpp.
 
 ```bash
-#Here is an example of what the folder containing llama.cpp should look like (showing only the most important files)
+#Here is an example of what the folder containing llama.cpp should look like 
+# ***(showing only the most important files)***
 
 llama.cpp
 ├── convert.py
@@ -72,7 +74,6 @@ llama.cpp
 │   ├── tokenizer.model
 │   └── tokenizer_checklist.chk
 ├── quantize
-
 ```
 
 Once everything is ready, we can continue.
