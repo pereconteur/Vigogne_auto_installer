@@ -60,8 +60,8 @@ Once you have checked these requirements, make sure you also :
 - Place the LLama weights you wish to use for Vigogne in the "models" folder of llama.cpp.
 
 ```bash
-#Here is an example of what the folder containing llama.cpp should look like 
-# ***(showing only the most important files)***
+#Here is an example with 7B model, of what the folder containing llama.cpp should look like 
+# (showing only the most important files)
 
 llama.cpp
 ├── convert.py
