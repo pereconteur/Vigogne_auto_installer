@@ -12,10 +12,10 @@ This repository aims to simplify the installation of the Vigogne AI, provided th
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#how-does-it-work-">Introduction</a>
+      <a href="#introduction">Introduction</a>
     </li>
     <li>
-      <a href="#get-started-">Get started 🚀</a>
+      <a href="#before-you-begin">Before you begin</a>
       <ul>
         <li><a href="#mac">Mac</a></li>
         <li><a href="#windows">Windows</a></li>
