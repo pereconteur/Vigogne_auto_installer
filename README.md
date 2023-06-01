@@ -96,6 +96,12 @@ Once this is done, go to the repository :
 cd path/to/Vigogne_auto_installer
 ```
 
+Make the file executable :
+
+```bash
+chmod +x vigogne_auto_install_Mac.sh
+```
+
 Then run the command :
 
 ```bash
