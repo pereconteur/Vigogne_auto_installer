@@ -72,7 +72,7 @@ function check_requirements {
         done
 
         while true; do
-            echo -e "\nVous voulez la version : \n1.instruct \n2.chat"
+            echo -e "\nVous voulez la version : \n1.chat \n2.instruct"
             read choix
 
             if [[ $choix == "1" ]]; then
