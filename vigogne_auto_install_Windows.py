@@ -53,7 +53,7 @@ def check_requirements():
                 echo_red("Choix invalide. Veuillez réessayer.")
 
         while True:
-            choix = input("\nVous voulez la version : \n1.instruct \n2.chat\n")
+            choix = input("\nVous voulez la version : \n1.chat \n2.instruct\n")
             if choix == "1":
                 version_vig = "chat"
                 break
