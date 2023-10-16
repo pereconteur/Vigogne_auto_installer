@@ -32,7 +32,7 @@ This repository aims to simplify the installation of the [Vigogne AI](https://gi
 ### Introduction
 
 Using the script corresponding to your operating system, if the prerequisites are met, you just have to run the script. You will answer two questions concerning the weight you wish to use and the version. 
-I invite you to read more by clicking [here](https://github.com/bofenghuang/vigogne/blob/main/docs/inference.md).
+I invite you to read more by clicking [here](https://github.com/bofenghuang/vigogne/blob/main/docs/model.md).
 
 ## Before you begin !
 
