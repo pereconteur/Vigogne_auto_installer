@@ -32,7 +32,7 @@ This repository aims to simplify the installation of the [Vigogne AI](https://gi
 ### Introduction
 
 Using the script corresponding to your operating system, if the prerequisites are met, you just have to run the script. You will answer two questions concerning the weight you wish to use and the version. 
-I invite you to read more by clicking [here](https://github.com/bofenghuang/vigogne/blob/main/vigogne/model/README.md).
+I invite you to read more by clicking [here](https://github.com/bofenghuang/vigogne/blob/main/docs/inference.md).
 
 ## Before you begin !
 
@@ -56,24 +56,16 @@ wget --version
 
 Once you have checked these requirements, make sure you also :
 
-- Have the [llama.cpp](https://github.com/ggerganov/llama.cpp) repository and have compiled it (as we will need ./chat).
-- Place the LLama weights you wish to use for Vigogne in the "models" folder of llama.cpp.
+- Have the [llama.cpp](https://github.com/ggerganov/llama.cpp) repository and have compiled it (as we will need ./main, ./quantize and convert.py).
 
-```bash
-#Here is an example with 7B model, of what the folder containing llama.cpp should look like 
+**Apparently this time you don't need to download the LLama weights beforehand, so it's even easier!**
+
+```bash 
 # (showing only the most important files)
 
 llama.cpp
 ├── convert.py
 ├── main
-├── models
-│   ├── 7B
-│   │   ├── checklist.chk
-│   │   ├── consolidated.00.pth
-│   │   └── params.json
-│   ├── ggml-vocab.bin
-│   ├── tokenizer.model
-│   └── tokenizer_checklist.chk
 ├── quantize
 ```
 
