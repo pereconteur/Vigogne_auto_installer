@@ -17,9 +17,8 @@ This repository aims to simplify the installation of the [Vigogne AI](https://gi
     <li>
       <a href="#before-you-begin-">Before you begin</a>
       <ul>
-        <li><a href="#mac">Mac</a></li>
+        <li><a href="#mac-&-linux">Mac & Linux</a></li>
         <li><a href="#windows">Windows</a></li>
-        <li><a href="#linux">Linux</a></li>
       </ul>
     </li>
     <li><a href="#follow-me-">Follow ME ✅</a></li>
@@ -72,7 +71,7 @@ llama.cpp
 Once everything is ready, we can continue.
 
 
-## Mac
+## Mac & Linux
 
 After cloning the repository, you must place it in the same folder as llama.cpp, as shown in the example below :
 
