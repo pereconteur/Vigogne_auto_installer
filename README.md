@@ -6,7 +6,7 @@ This repository aims to simplify the installation of the [Vigogne AI](https://gi
 ![Linux](https://img.shields.io/badge/-Linux-%23FCC624?style=flat-square&logo=linux&logoColor=white)
 ![Windows](https://img.shields.io/badge/-Windows-%230078D6?style=flat-square&logo=windows&logoColor=white)
 
-### Table of contents
+### Table of contents 📋
 
 <details>
   <summary>Table of Contents</summary>
@@ -28,13 +28,13 @@ This repository aims to simplify the installation of the [Vigogne AI](https://gi
   </ol>
 </details>
 
-### Introduction
+### Introduction 👨‍🏫
 
 Use the appropriate script for your OS. If the prerequisites are met, simply run the script and follow its instructions. You'll have the opportunity to choose the weights and type of model you want. For more information, please click [here](https://github.com/bofenghuang/vigogne/blob/main/docs/model.md).
 
 In the event of a problem, don't hesitate to leave a Issue. The community and I will try to rectify the problem as soon as possible! 
 
-## Before you begin !
+## Before you begin ! 🚀
 
 First of all, you must have **Python [3.10](https://www.python.org/downloads/release/python-3100/) or [3.9](https://www.python.org/downloads/release/python-390/) installed**. You can check your version by using the following command:
 
@@ -137,13 +137,13 @@ python3.10 vigogne_V2_auto_install_Windows.py
 
 [![twitch](https://img.shields.io/twitch/status/pereconteur?label=PereConteur&style=social)](https://www.twitch.tv/pereconteur)
 
-### Resources
+### Resources 📚
 
 - [Bofenghuang](https://github.com/bofenghuang) (creator of Vigogne IA)
 - [Vigogne](https://github.com/bofenghuang/vigogne)
 - [llama.cpp](https://github.com/ggerganov/llama.cpp)
 
-### Support
+### Support ℹ️
 
 For support, join the [Discord channel](https://discord.gg/xY63gyVfaR)
 
