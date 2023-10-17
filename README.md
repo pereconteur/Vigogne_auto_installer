@@ -121,9 +121,6 @@ Then run the command :
 python3.10 vigogne_auto_install_Windows.py
 ```
 
-## Linux
-
-
 ## Follow ME ✅
 
 [![youtube](https://img.shields.io/youtube/channel/subscribers/UC5XJLz-Gnv8_T61wMXu-K-A?label=PereConteur&style=social)](https://www.youtube.com/channel/UC5XJLz-Gnv8_T61wMXu-K-A)
