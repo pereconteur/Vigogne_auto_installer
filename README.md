@@ -12,18 +12,18 @@ This repository aims to simplify the installation of the [Vigogne AI](https://gi
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#introduction--">Introduction</a>
+      <a href="#introduction-">Introduction</a>
     </li>
     <li>
-      <a href="#before-you-begin--">Before you begin</a>
+      <a href="#before-you-begin-">Before you begin</a>
       <ul>
         <li><a href="#mac--linux">Mac & Linux</a></li>
         <li><a href="#windows">Windows</a></li>
       </ul>
     </li>
     <li><a href="#follow-me-">Follow ME ✅</a></li>
-    <li><a href="#resources--">Resources</a></li>
-    <li><a href="#support--">Support</a></li>
+    <li><a href="#resources-">Resources</a></li>
+    <li><a href="#support-">Support</a></li>
     <li><a href="#about-the-repo-">About the repo ⚙️</a></li>
   </ol>
 </details>
