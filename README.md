@@ -17,7 +17,7 @@ This repository aims to simplify the installation of the [Vigogne AI](https://gi
     <li>
       <a href="#before-you-begin-">Before you begin</a>
       <ul>
-        <li><a href="#mac-&-linux">Mac & Linux</a></li>
+        <li><a href="#mac--linux">Mac & Linux</a></li>
         <li><a href="#windows">Windows</a></li>
       </ul>
     </li>
@@ -30,8 +30,9 @@ This repository aims to simplify the installation of the [Vigogne AI](https://gi
 
 ### Introduction
 
-Using the script corresponding to your operating system, if the prerequisites are met, you just have to run the script. You will answer two questions concerning the weight you wish to use and the version. 
-I invite you to read more by clicking [here](https://github.com/bofenghuang/vigogne/blob/main/docs/model.md).
+Use the appropriate script for your OS. If the prerequisites are met, simply run the script and follow its instructions. You'll have the opportunity to choose the weights and type of model you want. For more information, please click [here](https://github.com/bofenghuang/vigogne/blob/main/docs/model.md).
+
+In the event of a problem, don't hesitate to leave a Issue. The community and I will try to rectify the problem as soon as possible! 
 
 ## Before you begin !
 
@@ -40,6 +41,18 @@ First of all, you must have **Python [3.10](https://www.python.org/downloads/rel
 ```bash
 python3 --version
 ```
+
+Once Python is installed, I invite you to install : SentencePiece, Peft and Fire. 
+I'm telling you this because I needed to download them during my tests. Please do the same!
+
+To do so, use these commands :
+
+```bash
+pip install sentencepiece
+pip install peft
+pip install fire
+```
+*Normally, the pip command should be installed at the same time as python, but in case it doesn't work I invite you to have a look [here](https://pip.pypa.io/en/stable/installation/)*
 
 Secondly, you must have **[GIT](https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-Installation-de-Git) installed**. You can check your version using the following command:
 
@@ -87,16 +100,11 @@ Once this is done, go to the repository :
 cd path/to/Vigogne_auto_installer
 ```
 
-Make the file executable :
-
-```bash
-chmod +x vigogne_auto_install_Mac.sh
-```
-
 Then run the command :
 
 ```bash
-./vigogne_auto_install_Mac.sh
+#Here I force launch the script with python3.10, if you have 3.9 adapt it!
+python3.10 vigogne_V2_auto_install_Mac_Linux.py
 ```
 
 ## Windows
@@ -118,7 +126,7 @@ cd path/to/Vigogne_auto_installer
 Then run the command :
 
 ```bash
-python3.10 vigogne_auto_install_Windows.py
+python3.10 vigogne_V2_auto_install_Windows.py
 ```
 
 ## Follow ME ✅
