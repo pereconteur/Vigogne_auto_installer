@@ -141,7 +141,6 @@ python3.10 vigogne_V2_auto_install_Windows.py
 
 - [Bofenghuang](https://github.com/bofenghuang) (creator of Vigogne IA)
 - [Vigogne](https://github.com/bofenghuang/vigogne)
-- [Vigogne models](https://github.com/bofenghuang/vigogne/blob/main/vigogne/model/README.md)
 - [llama.cpp](https://github.com/ggerganov/llama.cpp)
 
 ### Support
