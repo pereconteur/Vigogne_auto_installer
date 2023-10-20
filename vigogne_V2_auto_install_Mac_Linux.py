@@ -50,7 +50,7 @@ def check_git_version():
 def chooseYourLlamaModel():
     poids_llama = ""
     while True:
-        choix = input("\nAvant de commencer, avez-vous les anciens poids de LLama ou les derniers sortis le 18/07/2023 :\n1 = Ancien Poids (≈ 420K Data)\n2 = Les derniers sortis le 18/07/2023\n")
+        choix = input("\nAvant de commencer, voulez-vous utiliser les modèles avec les anciens poids de LLama ou les derniers sortis le 18/07/2023 :\n1 = Ancien Poids (≈ 420K Data)\n2 = Les derniers sortis le 18/07/2023\n")
         if choix == "1":
             poids_llama = "llama-ancien"
             break
