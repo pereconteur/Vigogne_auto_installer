@@ -50,7 +50,7 @@ def check_git_version():
 def chooseYourLlamaModel():
     poids_llama = ""
     while True:
-        choix = input("\nAvant de commencer, voulez-vous utiliser les modèles basés sur les anciens poids de LLama ou les derniers sortis le 18/07/2023 (pas besoin d'avoir les poids de Llama !) :\n1 = Ancien Poids (≈ 420K Data)\n2 = Les derniers sortis le 18/07/2023\n")
+        choix = input("\nAvant de commencer, souhaitez-vous utiliser les modèles basés sur les anciens poids de LLama ou les derniers sortis le 18/07/2023 (pas besoin d'avoir les poids de LLama !) :\n1 = Anciens Poids (≈ 420K Data)\n2 = Les derniers sortis le 18/07/2023\n")
         if choix == "1":
             poids_llama = "llama-ancien"
             break
@@ -138,7 +138,7 @@ def goForVigogneInstallation(modele_choice, poids_choice, chat_or_instruct):
     os.chdir("..")
 
     while True:
-        choix = input("\nAvez-vous déja installer le repo de Vigogne sur GitHub "
+        choix = input("\nAvez-vous déja installé le repo de Vigogne sur GitHub "
                       "ou voulez-vous que je m'en charge ? :\n1 = Oui télécharge-le \n2 = Non pas besoin\n")
         if choix == "1":
             echo_yellow("Clonage du dépôt GitHub de Vigogne")
@@ -153,7 +153,7 @@ def goForVigogneInstallation(modele_choice, poids_choice, chat_or_instruct):
     echo_yellow("Installation des dépendances")
 
     while True:
-        choix = input("\nAvez-vous déja installer les dépendances "
+        choix = input("\nAvez-vous déja installé les dépendances "
                       "ou voulez-vous que je m'en charge ? :\n1 = Oui, télécharge-les\n2 = Non pas besoin\n")
         if choix == "1":
             subprocess.run(["pip3.10", "install", "deepspeed"])
