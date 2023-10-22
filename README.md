@@ -54,7 +54,7 @@ pip install fire
 ```
 *Normally, the pip command should be installed at the same time as python, but in case it doesn't work I invite you to have a look [here](https://pip.pypa.io/en/stable/installation/)*
 
-Secondly, you must have **[GIT](https://git-scm.com/book/fr/v2/D%C3%A9marrage-rapide-Installation-de-Git) installed**. You can check your version using the following command:
+Secondly, you must have **[GIT](https://git-scm.com/downloads) installed**. You can check your version using the following command:
 
 ```bash
 git --version
@@ -78,7 +78,7 @@ Once you have checked these requirements, make sure you also :
 llama.cpp
 ├── convert.py
 ├── main
-├── quantize
+└── quantize
 ```
 
 Once everything is ready, we can continue.
