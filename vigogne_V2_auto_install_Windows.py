@@ -136,7 +136,7 @@ def goForVigogneInstallation(modele_choice, poids_choice, chat_or_instruct):
 
     while True:
         choix = input("\nAvez-vous déjà installé le repo de Vigogne sur GitHub "
-                      "ou voulez-vous que je m'en charge ? :\n1 = Oui\n2 = Non\n")
+                      "ou voulez-vous que je m'en charge ? :\n1 = Oui, télécharge-le\n2 = Non pas besoin\n")
         if choix == "1":
             echo_yellow("Clonage du dépôt GitHub de Vigogne")
             subprocess.run(["git", "clone", "https://github.com/bofenghuang/vigogne.git"])
@@ -151,7 +151,7 @@ def goForVigogneInstallation(modele_choice, poids_choice, chat_or_instruct):
 
     while True:
         choix = input("\nAvez-vous déjà installé les dépendances "
-                      "ou voulez-vous que je m'en charge ? :\n1 = Oui\n2 = Non\n")
+                      "ou voulez-vous que je m'en charge ? :\n1 = Oui, télécharge-les\n2 = Non pas besoin\n")
         if choix == "1":
             subprocess.run(["pip", "install", "deepspeed"])
             subprocess.run(["pip", "install", "."])
