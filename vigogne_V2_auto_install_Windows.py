@@ -77,7 +77,7 @@ def chooseYourVigogneModel(poids_llama_choice, type_vig_choice):
     if poids_llama_choice == "llama-ancien":
         if type_vig_choice == "chat":
             while True:
-                choix = input("\nChoisissez votre modèle (en fonction de celui que vous avez téléchargé):\n1 = 7b\n2 = 13b\n")
+                choix = input("\nChoisissez votre modèle (en fonction de votre RAM !!):\n1 = 7b\n2 = 13b\n")
                 if choix == "1":
                     model_vig = "vigogne-7b-chat"
                     poids_B = "7B"
@@ -90,7 +90,7 @@ def chooseYourVigogneModel(poids_llama_choice, type_vig_choice):
                     echo_red("Choix invalide. Veuillez réessayer.")
         else:
             while True:
-                choix = input("\nChoisissez votre modèle (en fonction de celui que vous avez téléchargé):\n1 = 7b\n2 = 13b\n3 = 33b\n")
+                choix = input("\nChoisissez votre modèle (en fonction de votre RAM !!):\n1 = 7b\n2 = 13b\n3 = 33b\n")
                 if choix == "1":
                     model_vig = "vigogne-7b-instruct"
                     poids_B = "7B"
@@ -108,7 +108,7 @@ def chooseYourVigogneModel(poids_llama_choice, type_vig_choice):
     else:
         if type_vig_choice == "chat":
             while True:
-                choix = input("\nChoisissez votre modèle (en fonction de celui que vous avez téléchargé):\n1 = 7b\n")
+                choix = input("\nChoisissez votre modèle (en fonction de votre RAM !!):\n1 = 7b\n")
                 if choix == "1":
                     model_vig = "vigogne-2-7b-chat"
                     poids_B = "7B"
@@ -117,7 +117,7 @@ def chooseYourVigogneModel(poids_llama_choice, type_vig_choice):
                     echo_red("Choix invalide. Veuillez réessayer.")
         else:
             while True:
-                choix = input("\nChoisissez votre modèle (en fonction de celui que vous avez téléchargé):\n1 = 7b\n2 = 13b\n")
+                choix = input("\nChoisissez votre modèle (en fonction de votre RAM !!):\n1 = 7b\n2 = 13b\n")
                 if choix == "1":
                     model_vig = "vigogne-2-7b-instruct"
                     poids_B = "7B"
