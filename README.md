@@ -60,7 +60,7 @@ Secondly, you must have **[GIT](https://git-scm.com/downloads) installed**. You 
 git --version
 ```
 
-Third, you must have **WGET installed ([Windows])(https://gnuwin32.sourceforge.net/packages/wget.htm)**. You can check your version using the following command:
+Third, you must have **WGET installed**. You can check your version using the following command:
 
 ```bash
 wget --version
