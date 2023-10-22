@@ -44,6 +44,17 @@ def check_git_version():
         echo_red("Git n'est pas installé")
         return False
 
+def choose_run_or_install_vigognee():
+    while True:
+        choix = input("Voulez-vous lancer Vigogne ou l'installer ?\n1 = Lancer Vigogne\n2 = Installer Vigogne\nVotre choix (1 ou 2) : ")
+        if choix == "1":
+            return True
+        elif choix == "2":
+            return False
+        else:
+            print("Choix invalide. Veuillez entrer 1 pour lancer Vigogne ou 2 pour l'installer.")
+
+
 def chooseYourLlamaModel():
     poids_llama = ""
     while True:
@@ -214,17 +225,39 @@ def goForVigogneInstallation(modele_choice, poids_choice, chat_or_instruct):
             "--interactive-first", "-c", "2048", "-n", "-1", "--temp", "0.1"
         ])
 
+def go_for_launch_vigogne(modele_choice, chat_or_instruct):
+    path = f"{modele_choice}_path"
+    echo_yellow("Lancement de l'IA")
+    if chat_or_instruct == "instruct":
+        subprocess.run([
+            "../llama.cpp/./main", "-m", f"../vigogne/scripts/./models/{path}/ggml-model-q4_0.bin", "--color", "-f",
+            f"../vigogne/prompts/instruct.txt", "-ins", "-c", "2048", "-n", "256", "--temp", "0.1",
+            "--repeat_penalty", "1.1"
+        ])
+    else:
+        subprocess.run([
+            "../llama.cpp/./main", "-m", f"../vigogne/scripts/./models/{path}/ggml-model-q4_0.bin", "--color", "-f",
+            f"../vigogne/prompts/chat.txt", "--reverse-prompt", '"<|user|>:"',
+            "--in-prefix", '"<|user|>:"', "--in-suffix", '"<|assistant|>:"',
+            "--interactive-first", "-c", "2048", "-n", "-1", "--temp", "0.1"
+        ])
+
 def check_requirements():
     result_python = check_python_version()
     result_wget = check_wget_version()
     result_git = check_git_version()
 
     if result_python and result_wget and result_git:
+        lunch_vigogne = choose_run_or_install_vigognee()
         llama_model = chooseYourLlamaModel()
         type_vig = chooseYourVigogneType()
         choice = chooseYourVigogneModel(llama_model, type_vig)
         model_vig, poids_B = choice
-        goForVigogneInstallation(model_vig, poids_B, type_vig)
+
+        if lunch_vigogne:
+            go_for_launch_vigogne(model_vig,type_vig)
+        else:
+            goForVigogneInstallation(model_vig, poids_B, type_vig)
     else:
         print(result_python)
         print(result_wget)
